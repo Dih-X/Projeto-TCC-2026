@@ -1,0 +1,60 @@
+Ras_Pico -> Esp32_Mãe
+
+Esp32_Mãe:
+    > Espmicro_1 (Quarto_Casal):
+        > Luzes,
+            > Ligar/Desligar
+        > Abajures,
+            > Ligar/Desligar
+        > Ar-condicionado,
+            > Ligar/Desligar
+            > Mudar temperatura
+        > Tela(?),
+            > Exibicao de status
+            > Exibicao da camera
+            > Exibicao de conteudo variado
+        > (Outros eletrônicos),
+            > Ligar/Desligar
+            > Exibicao de conteudo variado (caso tela)
+        > Janela(?).
+
+    > Espmicro_2 (Banheiro/Lavanderia && Sala_Superior):
+        > Luzes,
+            > Ligar/Desligar
+        > Chuveiro,
+            > Aquecer/Não aquecer
+        > Eletrodomésticos de lavagem,
+            >Ligar/Desligar
+          ---------------------------------
+        > Luzes,
+            > Ligar/Desligar
+        > Ar-condicionado,
+            > Ligar/Desligar
+            > Mudar temperatura
+        > Janela(?).
+
+    > Espmicro_3 (Sala_Inferior):
+        > Luzes,
+            > Ligar/Desligar
+        > Tela(?),
+            > Exibicao de status
+            > Exibicao da camera
+            > Exibicao de conteudo variado
+        > Ar-condicionado,
+            > Ligar/Desligar
+            > Mudar temperatura
+
+    > Espmicro_4 (Cozinha_XG):
+        > Luzes,
+            > Ligar/Desligar
+        > Tela(?),
+            > Exibicao de status
+            > Exibicao da camera
+            > Exibicao de conteudo variado
+        > Ar-condicionado,
+            > Ligar/Desligar
+            > Mudar temperatura
+        > Porta(?),
+        > Eletrodomésticos de cozinha,
+            > Ligar/Desligar
+            > Mudar temperatura(?)
