@@ -17,6 +17,9 @@ Esp32_Mãe:
             > Ligar/Desligar
             > Exibicao de conteudo variado (caso tela)
         > Janela(?).
+            > Abrir/Fechar
+            > Modo manual
+            > Modo automatico
 
     > Espmicro_2 (Banheiro/Lavanderia && Sala_Superior):
         > Luzes,
@@ -32,6 +35,9 @@ Esp32_Mãe:
             > Ligar/Desligar
             > Mudar temperatura
         > Janela(?).
+            > Abrir/Fechar
+            > Modo manual
+            > Modo automatico
 
     > Espmicro_3 (Sala_Inferior):
         > Luzes,
@@ -55,6 +61,9 @@ Esp32_Mãe:
             > Ligar/Desligar
             > Mudar temperatura
         > Porta(?),
+            > Abrir/Fechar
+            > Modo manual
+            > Modo automatico
         > Eletrodomésticos de cozinha,
             > Ligar/Desligar
             > Mudar temperatura(?)
