@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "author": "Carlos Rodrigues Rocha",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-esp32-devkit-c-v4",
+      "id": "esp",
+      "top": 0,
+      "left": 0,
+      "attrs": { "env": "micropython-20260406-v1.28.0" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -32.4,
+      "left": 186.2,
+      "attrs": { "color": "red" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text1",
+      "top": -48,
+      "left": 172.8,
+      "attrs": { "text": "Luminária" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led2",
+      "top": 44.4,
+      "left": 215,
+      "attrs": { "color": "yellow" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text2",
+      "top": 57.6,
+      "left": 249.6,
+      "attrs": { "text": "Microondas" }
+    },
+    {
+      "type": "wokwi-led-strip",
+      "id": "strip1",
+      "top": 117.3,
+      "left": 182.4,
+      "attrs": { "pixels": "6" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text3",
+      "top": 153.6,
+      "left": 201.6,
+      "attrs": { "text": "Ar Condicionado" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 35,
+      "left": -144,
+      "attrs": { "color": "green", "xray": "1" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text4",
+      "top": -9.6,
+      "left": -153.6,
+      "attrs": { "text": "Mensagem recebida" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led3",
+      "top": -32.4,
+      "left": 320.6,
+      "attrs": { "color": "yellow" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text5",
+      "top": -48,
+      "left": 288,
+      "attrs": { "text": "Fogão elétrico" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led4",
+      "top": 44.4,
+      "left": 368.6,
+      "attrs": { "color": "yellow" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text6",
+      "top": 57.6,
+      "left": 403.2,
+      "attrs": { "text": "Airfryer" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "led1:C", "esp:GND.2", "black", [ "v0" ] ],
+    [ "led1:A", "esp:23", "green", [ "v0" ] ],
+    [ "led2:C", "esp:GND.2", "black", [ "v0", "h-57.2", "v-57.6" ] ],
+    [ "led2:A", "esp:22", "green", [ "v9.6", "h-105.6", "v-48" ] ],
+    [ "strip1:VDD", "esp:3V3", "red", [ "h-67.2", "v-134.4", "h-105.6" ] ],
+    [ "strip1:VSS", "esp:GND.2", "black", [ "h-57.6", "v-135.2" ] ],
+    [ "strip1:DIN", "esp:25", "green", [ "h-201.6", "v-19.6" ] ],
+    [ "btn1:1.r", "esp:3V3", "red", [ "h19.4", "v-19.2" ] ],
+    [ "btn1:2.r", "esp:26", "blue", [ "h19.4", "v19.4" ] ],
+    [ "esp:GND.2", "led3:C", "black", [ "v0", "h225.64" ] ],
+    [ "esp:21", "led3:A", "green", [ "h52.84", "v28.8", "h105.6" ] ],
+    [ "esp:GND.2", "led4:C", "black", [ "h254.44", "v57.6" ] ],
+    [ "esp:27", "led4:A", "green", [ "h-14.21", "v96", "h288" ] ]
+  ],
+  "dependencies": {}
+}
