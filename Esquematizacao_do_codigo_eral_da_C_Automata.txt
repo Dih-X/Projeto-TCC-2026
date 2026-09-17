@@ -67,3 +67,6 @@ Esp32_Mãe:
         > Eletrodomésticos de cozinha,
             > Ligar/Desligar
             > Mudar temperatura(?)
+
+
+:D
