@@ -1,5 +1,5 @@
 """
-Receptor ESP-NOW (ESP32-C3 Super Mini + MicroPython) - QUARTO DE DORMIR
+Receptor ESP-NOW (ESP32-C3 Super Mini + MicroPython) - QUARTO DE DORMIR - 44:bd:8d:25:b0:54
 
 Comandos de exemplo (JSON que o emissor deve enviar):
 {"equipamento":"tela", "acao":"ligar", "parametro":true}

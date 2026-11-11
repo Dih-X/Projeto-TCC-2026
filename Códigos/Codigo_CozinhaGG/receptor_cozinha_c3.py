@@ -1,5 +1,5 @@
 """
-Receptor ESP-NOW (ESP32-C3 Super Mini + MicroPython) - COZINHA
+Receptor ESP-NOW (ESP32-C3 Super Mini + MicroPython) - COZINHA - ac:a7:04:d6:91:38
 
 Comandos de exemplo (JSON que o emissor deve enviar):
 {"equipamento":"fogaoEl", "acao":"ligar", "parametro":true}

@@ -1,5 +1,5 @@
 """
-Receptor ESP-NOW (ESP32-C3 Super Mini + MicroPython) - QUARTO & BANHEIRO
+Receptor ESP-NOW (ESP32-C3 Super Mini + MicroPython) - QUARTO & BANHEIRO - 44:bd:8d:24:9a:6c
 
 Comandos de exemplo (JSON que o emissor deve enviar):
 {"equipamento":"abajur", "acao":"ligar", "parametro":true}

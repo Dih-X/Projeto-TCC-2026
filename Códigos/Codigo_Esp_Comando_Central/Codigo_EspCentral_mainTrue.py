@@ -52,8 +52,8 @@ print("MAC deste mestre:", rede.config('mac').hex())
 BROADCAST = b'\xff\xff\xff\xff\xff\xff'
 
 esp_cozinha         = bytes.fromhex('aca704d69138')  # ac:a7:04:d6:91:38  (confirmar)
-esp_quarto_dormir   = BROADCAST                       # a definir
-esp_quarto_banheiro = BROADCAST                       # a definir
+esp_quarto_dormir   = bytes.fromhex('44bd8d25b054')  # 44:bd:8d:25:b0:54
+esp_quarto_banheiro = bytes.fromhex('44bd8d249a6c')  # 44:bd:8d:24:9a:6c
 
 #######################################################################################################
 # Equipamentos do PRÓPRIO mestre (acionados direto pelos pinos, sem ESP-NOW)
